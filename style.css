@@ -4,8 +4,19 @@ body {
 
 .menu {
     top: 10px;
- -   right: 30px;
+    - right: 30px;
+    cursor: pointer;
+    list-style: none;
 }
+
 section {
     background-color: aqua;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#inspiration {
+    background-color: antiquewhite
 }
